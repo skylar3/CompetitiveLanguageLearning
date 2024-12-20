@@ -1,0 +1,28 @@
+{
+  "name": "competitivelanguagelearning",
+  "version": "1.0.0",
+  "description": "A competitve language learning website that allows people to compete on translating random sentences in random languages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylar3/CompetitiveLanguageLearning.git"
+  },
+  "author": "Skylar Tipton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skylar3/CompetitiveLanguageLearning/issues"
+  },
+  "homepage": "https://github.com/skylar3/CompetitiveLanguageLearning#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "deepl-node": "^1.15.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module",
+  "keywords": []
+}
