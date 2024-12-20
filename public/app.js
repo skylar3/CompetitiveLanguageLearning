@@ -13,6 +13,7 @@ async function fetchRandomSentence() {
         document.getElementById('original-sentence').textContent = 'Failed to fetch sentence.';
         document.getElementById('translated-sentence').textContent = 'Translation failed.';
     }
+    //gotta make a commit
 }
 
 // Make sure to call the function at the right place (outside of the function definition)
