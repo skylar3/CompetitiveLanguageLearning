@@ -1,0 +1,20 @@
+*
+{
+    font-family:'Courier New', Courier, monospace;
+}
+.heading
+{
+    padding:20px;
+    margin-bottom:10px;
+    background-color:aquamarine;
+}
+.home
+{
+    text-align: left;
+    display:inline-block;
+}
+.login
+{
+    text-align:right;
+    display:inline-block;
+}
