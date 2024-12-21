@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel ="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,9 +31,17 @@
     <input type="text" id="userInput" placeholder="Enter language here">
     
     <button id="checkButton">Let's check</button>
-
+    <p>Try and translate! </p>
+    <input type="text" id="userInputTranslation" placeholder="Enter  translation here">
+    
+    <button id="checkButtonTranslation">Let's check</button>
     <h2> Language </h2>
     <p id="language">Loading...</p>
+    <div id="chart-container" style="width: 400px; height: 400px;">
+        <canvas id="chartCanvas"></canvas>
+    </div>
+
+
 
     <!-- Link to the external JavaScript file -->
     <script type="module" src="app.js"></script>
